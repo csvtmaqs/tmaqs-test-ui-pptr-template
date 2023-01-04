@@ -1,0 +1,33 @@
+ui:
+  # Options: 'puppeteer', 'selenium'
+  driver: 'puppeteer'
+
+  # Options: 'chrome', 'firefox'
+  browser: 'chrome'
+
+  # Options: true, false
+  isHeadless: false
+
+  # Default Value: 'http://magenicautomation.azurewebsites.net'
+  baseUrl: 'http://magenicautomation.azurewebsites.net'
+
+  # Default Value: './screenshots'
+  screenshotsPath: './screenshots'
+
+  # Default Value: 5000
+  defaultTimeout: 5000
+
+  # Default Value: 5000
+  navigationTimeout: 5000
+
+  # Default Value: 0
+  hoverDuration: 0
+
+  # Options: true, false
+  toHighlightElements: true
+
+  # Default Value: 100
+  highlightDuration: 100
+
+  # Options: 'red', 'orange', 'yellow', 'green', 'blue', 'violet', 'pink'
+  highlightColor: 'pink'

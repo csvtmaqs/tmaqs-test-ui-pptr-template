@@ -1,0 +1,17 @@
+filepath:
+  # Options: "default", OR custom E,g, ../custom/folder/
+  path: ./logs
+  isAppended: true
+
+level:
+  debug: 'debug'
+  info: 'info'
+  trace: 'trace'
+  error: 'error'
+
+navigate:
+  action: 'NAVIGATE'
+  debugMsg: 'Navigating to '
+  infoMsg: 'Successfully navigated to '
+  traceMsg: 'Trace log -> '
+  errorMsg: 'Invalid URL! Please input a valid URL.'
